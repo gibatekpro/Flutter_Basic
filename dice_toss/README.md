@@ -1,6 +1,6 @@
 # dice_toss
 
-An app the simulates the tossing of dice.
+A flutter app that simulates the toss of dice.
 
 ## Getting Started
 

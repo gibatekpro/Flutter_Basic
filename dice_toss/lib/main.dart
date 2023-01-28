@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 
 void main() {
   return runApp(
-    MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.red,
-        appBar: AppBar(
+      MaterialApp(
+        home: Scaffold(
           backgroundColor: Colors.red,
-          title: const Text('Dice Toss'),
+          appBar: AppBar(
+            backgroundColor: Colors.red,
+            title: const Text('Dice Toss'),
+          ),
+          body: const DicePage(),
         ),
-        body: const DicePage(),
-      ),
-    )
+      )
   );
 }
 
